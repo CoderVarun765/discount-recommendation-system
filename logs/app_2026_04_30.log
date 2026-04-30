@@ -99,3 +99,13 @@ ValueError: Per-column arrays must each be 1-dimensional
 [2026-04-30 17:28:56,516] WARNING -  * Debugger is active!
 [2026-04-30 17:28:56,521] INFO -  * Debugger PIN: 163-297-901
 [2026-04-30 17:28:56,741] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\app\\streamlit_app.py', reloading
+[2026-04-30 17:28:57,442] INFO -  * Restarting with watchdog (windowsapi)
+[2026-04-30 17:29:04,954] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 17:29:04,976] WARNING -  * Debugger is active!
+[2026-04-30 17:29:04,983] INFO -  * Debugger PIN: 163-297-901
+[2026-04-30 17:53:37,255] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\app\\streamlit_app.py', reloading
+[2026-04-30 17:53:38,400] INFO -  * Restarting with watchdog (windowsapi)
+[2026-04-30 17:53:46,147] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 17:53:46,159] WARNING -  * Debugger is active!
+[2026-04-30 17:53:46,162] INFO -  * Debugger PIN: 163-297-901
+[2026-04-30 17:55:41,022] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\.venv\\Lib\\site-packages\\matplotlib\\text.py', reloading

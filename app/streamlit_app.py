@@ -283,7 +283,7 @@ with col_right:
     path = "models/global_shap.csv"
     if os.path.exists(path):
         try:
-            df = pd.read_csv(path).head(6)
+            df = pd.read_csv(path).sort_values("importance", ascending=False).head(6)
             PALETTE = ["#F97316","#3B82F6","#8B5CF6","#EC4899","#14B8A6","#F59E0B"]
 
             fig, ax = plt.subplots(figsize=(4, 3.3))
