@@ -215,7 +215,7 @@ with col_right:
     if predict:
         try:
             res = requests.post(
-                "http://localhost:5000/predict",
+                "https://discount-recommendation-system.onrender.com/predict",
                 json={"orders": orders, "discount": discount_pref,
                       "order_value": order_value, "delivery_exp": delivery_exp},
                 timeout=5
