@@ -79,3 +79,7 @@ ValueError: Per-column arrays must each be 1-dimensional
 [2026-04-30 17:01:57,583] WARNING -  * Debugger is active!
 [2026-04-30 17:01:57,589] INFO -  * Debugger PIN: 163-297-901
 [2026-04-30 17:01:58,280] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\.venv\\Lib\\site-packages\\streamlit\\logger.py', reloading
+[2026-04-30 17:01:58,974] INFO -  * Restarting with watchdog (windowsapi)
+[2026-04-30 17:02:06,564] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 17:02:06,574] WARNING -  * Debugger is active!
+[2026-04-30 17:02:06,578] INFO -  * Debugger PIN: 163-297-901
