@@ -1,0 +1,81 @@
+[2026-04-30 15:53:59,188] INFO - Pipeline started
+[2026-04-30 15:53:59,189] INFO - Loading data from raw data path
+[2026-04-30 15:53:59,207] INFO - Starting preprocessing pipeline
+[2026-04-30 15:53:59,214] INFO - Selected final columns for preprocessing
+[2026-04-30 15:53:59,229] INFO - Handled missing values
+[2026-04-30 15:53:59,233] INFO - Converted Maximum wait time to numeric
+[2026-04-30 15:53:59,237] INFO - Clean text columns
+[2026-04-30 15:53:59,242] INFO - Applied ordinal & binary encoding
+[2026-04-30 15:53:59,244] INFO - Handled post-encoding missing values
+[2026-04-30 15:53:59,251] INFO - Applied one-hot encoding
+[2026-04-30 15:53:59,251] INFO - Feature engineering started
+[2026-04-30 15:53:59,252] INFO - Added discount sensitivity feature
+[2026-04-30 15:53:59,254] INFO - Added high order frequency feature
+[2026-04-30 15:53:59,254] INFO - Created target_discount_growth
+[2026-04-30 15:53:59,255] INFO - Saving processed dataset
+[2026-04-30 15:53:59,264] INFO - Starting model training
+[2026-04-30 15:53:59,532] INFO - Model trained successfully
+[2026-04-30 15:53:59,532] INFO - Starting model evaluation
+[2026-04-30 15:53:59,651] INFO - Model evaluation successfully
+[2026-04-30 15:53:59,652] INFO - ROC-AUC Score: 1.0
+[2026-04-30 15:53:59,652] INFO - Pipeline completed successfully
+[2026-04-30 16:09:19,630] INFO - Pipeline started
+[2026-04-30 16:09:19,632] INFO - Loading data from raw data path
+[2026-04-30 16:09:19,711] INFO - Starting preprocessing pipeline
+[2026-04-30 16:09:19,728] INFO - Selected final columns for preprocessing
+[2026-04-30 16:09:19,763] INFO - Handled missing values
+[2026-04-30 16:09:19,776] INFO - Converted Maximum wait time to numeric
+[2026-04-30 16:09:19,781] INFO - Clean text columns
+[2026-04-30 16:09:19,788] INFO - Applied ordinal & binary encoding
+[2026-04-30 16:09:19,795] INFO - Handled post-encoding missing values
+[2026-04-30 16:09:19,810] INFO - Applied one-hot encoding
+[2026-04-30 16:09:19,810] INFO - Feature engineering started
+[2026-04-30 16:09:19,813] INFO - Added discount sensitivity feature
+[2026-04-30 16:09:19,817] INFO - Added high order frequency feature
+[2026-04-30 16:09:19,819] INFO - Created target_discount_growth
+[2026-04-30 16:09:19,820] INFO - Saving processed dataset
+[2026-04-30 16:09:19,830] INFO - Starting model training
+[2026-04-30 16:09:20,170] INFO - Model trained successfully
+[2026-04-30 16:09:20,170] INFO - Starting model evaluation
+[2026-04-30 16:09:20,277] INFO - Model evaluation successfully
+[2026-04-30 16:09:20,277] INFO - ROC-AUC Score: 1.0
+[2026-04-30 16:09:20,277] INFO - Pipeline completed successfully
+[2026-04-30 16:48:08,412] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 16:48:08,512] INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.29.208:5000
+[2026-04-30 16:48:08,513] INFO - [33mPress CTRL+C to quit[0m
+[2026-04-30 16:48:08,528] INFO -  * Restarting with watchdog (windowsapi)
+[2026-04-30 16:48:17,218] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 16:48:17,236] WARNING -  * Debugger is active!
+[2026-04-30 16:48:17,247] INFO -  * Debugger PIN: 163-297-901
+[2026-04-30 16:50:02,960] ERROR - LOCAL SHAP FAILED: Per-column arrays must each be 1-dimensional
+Traceback (most recent call last):
+  File "C:\Users\varun\OneDrive\Desktop\DISCOUNT_RECOMMENDATION_SYSTEM\src\predict.py", line 71, in _get_local_shap
+    shap_df = pd.DataFrame({
+              ^^^^^^^^^^^^^^
+  File "C:\Users\varun\OneDrive\Desktop\DISCOUNT_RECOMMENDATION_SYSTEM\.venv\Lib\site-packages\pandas\core\frame.py", line 769, in __init__
+    mgr = dict_to_mgr(data, index, columns, dtype=dtype, copy=copy)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\varun\OneDrive\Desktop\DISCOUNT_RECOMMENDATION_SYSTEM\.venv\Lib\site-packages\pandas\core\internals\construction.py", line 460, in dict_to_mgr
+    return arrays_to_mgr(arrays, columns, index, dtype=dtype, consolidate=copy)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\varun\OneDrive\Desktop\DISCOUNT_RECOMMENDATION_SYSTEM\.venv\Lib\site-packages\pandas\core\internals\construction.py", line 113, in arrays_to_mgr
+    index = _extract_index(arrays)
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\varun\OneDrive\Desktop\DISCOUNT_RECOMMENDATION_SYSTEM\.venv\Lib\site-packages\pandas\core\internals\construction.py", line 631, in _extract_index
+    raise ValueError("Per-column arrays must each be 1-dimensional")
+ValueError: Per-column arrays must each be 1-dimensional
+[2026-04-30 16:50:02,964] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\src\\predict.py', reloading
+[2026-04-30 16:50:03,112] INFO - 127.0.0.1 - - [30/Apr/2026 16:50:03] "POST /predict HTTP/1.1" 200 -
+[2026-04-30 16:50:04,118] INFO -  * Restarting with watchdog (windowsapi)
+[2026-04-30 16:50:14,817] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 16:50:14,829] WARNING -  * Debugger is active!
+[2026-04-30 16:50:14,835] INFO -  * Debugger PIN: 163-297-901
+[2026-04-30 17:01:49,279] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\app\\flask_app.py', reloading
+[2026-04-30 17:01:50,143] INFO -  * Restarting with watchdog (windowsapi)
+[2026-04-30 17:01:57,569] INFO - Model loaded | Classes: [0 1]
+[2026-04-30 17:01:57,583] WARNING -  * Debugger is active!
+[2026-04-30 17:01:57,589] INFO -  * Debugger PIN: 163-297-901
+[2026-04-30 17:01:58,280] INFO -  * Detected change in 'C:\\Users\\varun\\OneDrive\\Desktop\\DISCOUNT_RECOMMENDATION_SYSTEM\\.venv\\Lib\\site-packages\\streamlit\\logger.py', reloading

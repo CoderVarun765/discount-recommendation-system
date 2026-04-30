@@ -1,0 +1,20 @@
+.stApp {
+    background-color: #f8f9fa;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.project-title {
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    color: #111827 !important;  
+    background: transparent !important;
+    margin: 0 !important;
+}
+
+
